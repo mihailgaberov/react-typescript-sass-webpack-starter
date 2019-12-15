@@ -1,2 +1,2 @@
-# react-typescript-sass-webpack-starter
-Starter setup for a project using React, Typescript, SASS and Webpack.
+# React, Typescript, Sass and Webpack starter
+Starter setup for projects using React, Typescript, SASS and Webpack.
