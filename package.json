@@ -1,0 +1,38 @@
+{
+  "name": "react-typescript-sass-webpack-starter",
+  "version": "1.0.0",
+  "description": "Starter setup for projects using React, Typescript, SASS and Webpack.",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "core-js": "^3.5.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "regenerator-runtime": "^0.13.3"
+  },
+  "devDependencies": {
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.3.2",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "source-map-loader": "^0.2.4",
+    "style-loader": "^1.0.1",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.3",
+    "webpack-cli": "^3.3.10",
+    "webpack": "^4.41.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mihailgaberov/react-typescript-sass-webpack-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mihailgaberov/react-typescript-sass-webpack-starter/issues"
+  },
+  "homepage": "https://github.com/mihailgaberov/react-typescript-sass-webpack-starter#readme"
+}
