@@ -10,6 +10,12 @@
     "regenerator-runtime": "^0.13.3"
   },
   "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/preset-react": "^7.7.4",
+    "@babel/preset-typescript": "^7.7.4",
+    "@types/react": "^16.9.16",
+    "@types/react-dom": "^16.9.4",
     "babel-loader": "^8.0.6",
     "css-loader": "^3.3.2",
     "node-sass": "^4.13.0",
@@ -18,11 +24,11 @@
     "style-loader": "^1.0.1",
     "ts-loader": "^6.2.1",
     "typescript": "^3.7.3",
-    "webpack-cli": "^3.3.10",
-    "webpack": "^4.41.2"
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "webpack:dev": "npx webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
